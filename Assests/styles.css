@@ -1,0 +1,33 @@
+:root {
+    --first: #0D5E2F;
+    --second: #64E399;
+    --third: #1FDE6F;
+    --fourth: #2A5E40;
+    --fifth: #18AB55;
+    }
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    h2{
+        justify-content: space-around;
+        margin-bottom: 10px;
+        margin-bottom: 0.5rem;
+        margin-left: 0.5rem;
+        color: black;
+    }
+     
+    body {
+        font-family: "IBM Plex Sans", sans-serif;
+    }
+    
+    header {
+        text-align: center;
+        margin-bottom: 1rem;
+        background-image: linear-gradient(to right, var(--third), var(--fifth), var(--first));
+        color: white;
+        padding: 1vh;
+    }
